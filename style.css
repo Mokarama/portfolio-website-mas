@@ -1,0 +1,728 @@
+*{
+  font-family: "Roboto", serif;
+}
+
+
+
+.nav {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+  }
+  
+  .logo img {
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    margin-left: 60px;
+    color:blueviolet;
+    font-size: 22px;
+  }
+  
+  span {
+    color: blueviolet;
+  }
+  
+  .btn {
+    margin-right: 120px;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    font-size: 18px;
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px gray;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: tomato;
+    color: white;
+    transition: 2s;
+    box-shadow: 5px 5px 10px blue;
+  }
+  
+  /* first Banner Area */
+  section {
+    margin: 5px auto;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    box-shadow:3px 3px 7px gray;
+    
+  }
+  .banner-container-area {
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    background-color: rgb(244, 251, 251);
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px gray;
+  }
+  
+  .banner-container {
+    margin-left: 50px;
+    padding: 20px;
+  }
+  
+  .banner-title {
+    font-size:40px;
+    color: black;
+  }
+  
+  .banner-description {
+    font-size: 17px;
+    color: rgb(53, 49, 49);
+  }
+  
+  .button-banner {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 3px 3px 5px gray;
+  }
+  
+  .button-banner:hover {
+    background-color: tomato;
+    color: black;
+    transition: 3s;
+  }
+  
+  .banner-img {
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .banner-img img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    border-radius: 10px; 
+  }
+  
+  .banner-container {
+    width: 50%; 
+  }
+  
+  .banner-img img:hover {
+    opacity: 0.8;
+  }
+  
+  /* first Section Area */
+  
+  /* My Expertise Area */
+  .card-para {
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  .card-title {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: white;
+    margin: 20px auto;
+    padding: 50px;
+    
+  }
+  
+  .skill {
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(244, 251, 251);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding-bottom: 30px;
+    border-bottom: 5px solid rgb(135, 82, 186);
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .img-logo {
+    display: block;
+    max-width: 100%;
+    max-height: 180px;
+    margin: auto;
+    padding-bottom: 20px;
+    object-fit: contain;
+    border-radius: 15px;
+  }
+  
+  .skill-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 5px 5px;
+  }
+  
+  .skill-description {
+    text-align: center;
+    font-size: 17px;
+    color: #555;
+    margin: 0 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* About section Area
+                    About Me */
+  
+  .about-container {
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    background-color: rgb(244, 251, 251);
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px gray;
+  }
+  
+  .bg-image img {
+    width: 60%;
+    border-radius: 15px;
+  }
+  
+  .bg-image img:hover {
+    opacity: 0.6;
+  }
+  
+  .about-info {
+    width: 100%;
+  }
+  
+  .about-description {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(60, 58, 58);
+  }
+  
+  /* 3rd Section Area */
+  /* My Portfolio Area */
+  
+  .portfolio-container {
+    margin: 0 auto;
+    padding: 40px 5px;
+  }
+  
+  .Portfolio-info {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Portfolio-info-title {
+    text-align: center;
+  }
+  
+  .Portfolio-para {
+    font-size: 17px;
+    color: rgb(71, 70, 70);
+    margin: 0 auto;
+  }
+  
+  .Portfolio-title {
+    font-size: 30px;
+  }
+  
+  .Portfolio-info-image img {
+    width: 100%;
+  }
+  
+  /* Portfolio Project Card Area */
+  
+  .Portfolio-project-area {
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .Portfolio-project-card {
+    background-color: white;
+    border: 1px dotted whitesmoke;
+    text-align: left;
+    margin-left: 25px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px gray;
+  }
+  
+  .Portfolio-project-card img {
+    width: 100%;
+    height: 60%;
+  }
+  
+  .Portfolio-project-title {
+    font-size: 25px;
+    color: black;
+    padding: 0 2%;
+  }
+  
+  .Portfolio-project-description {
+    font-size: 15px;
+    padding: 0 2%;
+  }
+  
+  .icon-area {
+    display: flex;
+  }
+  
+  .dribbble-title {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  
+  .btn-icon {
+    font-size: 20px;
+    border: none;
+    background-color: rgb(247, 245, 245);
+  }
+
+
+       /* Customer Testimonials Section
+              Clients Feedback  */
+
+              .testimonials-section{
+                height: 450px;
+                background-color: rgb(244, 251, 251);
+
+             }
+             .testimonials-card-container{
+               height:300px ;
+               display: flex;
+               align-items: center;
+             }
+             
+             .Customer-testimonials-card{
+               margin-left:20px;
+               margin-right: 20px;
+               padding: 30px 15px;
+               border-radius: 10px;
+               box-shadow:5px 5px 15px gray;
+               
+             }
+             
+             .testimonials-card-img{
+               width:110px;
+             }
+             
+             .testimonials-description{
+               /* display: flex;
+               align-items: center;
+               justify-content: center; */
+              text-align:left;
+              padding: 0 15px;
+             }
+             .testimonials-icon-area{
+               display: flex;
+             }
+             .testimonials-img{
+              width:80px;
+              height: 80px;
+              margin-left:10px;
+             }
+             .client-info{
+               margin-left:18px;
+               text-align: left;
+             
+             }
+             .client-info-title{
+               font-size: 20px;
+             }
+             .client-info-para{
+               font-size: 18px;
+             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /* Wrapper to center the form */
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  /* Form container styling */
+  .form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+  }
+  
+  /* Heading and paragraph styles */
+  h2 {
+    color: #6c63ff;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+  
+  /* Form elements styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input,
+  select,
+  textarea,
+  .form-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+  }
+  
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 4px #6c63ff;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .form-btn {
+      width: 30%;
+      padding: 10px;
+      background-color: #6c63ff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 0 auto;
+      display: block; 
+      text-align: center;
+      transition: background-color 0.3s ease;
+  }
+  
+  .form-btn:hover {
+    background-color: #5548cc;
+  }
+  
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .checkbox-row input {
+    width: auto;
+  }
+  
+  
+  
+  /* calendar */
+  
+  .Calendar {
+    font-family: monospace;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .calendar-section {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .clock-section {
+    flex: 1;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    border-left: 2px solid #666;
+  }
+  
+  .date {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cal-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    font-size: 18px;
+  }
+  
+  .day,
+  .number,
+  .number-pre {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .day {
+    background-color: #4a4a4a;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .number {
+    background-color: #6c6c6c;
+    color: #fff;
+  }
+  
+  .number-pre {
+    color: rgba(238, 238, 238, 0.4);
+  }
+  
+  .number.active {
+    background-color: rgb(73, 73, 247);
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+  }
+  
+  .number:hover,
+  .number-pre:hover {
+    border: 2px solid grey;
+  }
+  
+  .clock-text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .clock {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .clock-image {
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  .clock-text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* General Footer Styling */
+  .footer {
+      background-color: #f6fbff;
+      padding: 20px 40px;
+      font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  
+  .logo img {
+      height: 30px;
+      width: auto;
+  }
+  
+  .footer-nav {
+      display: flex;
+      gap: 20px;
+  }
+  
+  .footer-nav a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+  }
+  
+  .social-icons {
+      display: flex;
+      gap: 10px;
+  }
+  
+  .social-icons a {
+      text-decoration: none;
+      font-size: 25px;
+      color: #333;
+  }
+  
+  .social-icons a:hover {
+      color: #6c63ff;
+  }
+  
+  hr {
+      margin: 20px 0;
+      border: 0;
+      border-top: 1px solid #ddd;
+  }
+  
+  .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 14px;
+  }
+  
+  .footer-bottom .heart {
+      color: red;
+  }
+  
+  .footer-policy {
+      display: flex;
+      gap: 20px;
+  }
+  
+  .footer-policy a {
+      text-decoration: none;
+      color: #666;
+  }
+  
+  .footer-policy a:hover {
+      color: #6c63ff;
+  }
+  
+  
