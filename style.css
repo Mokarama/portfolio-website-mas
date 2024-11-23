@@ -73,20 +73,23 @@
     margin-top: 50px;
     border: 2px solid whitesmoke;
     border-radius: 8px;
+    width: 90%;
     box-shadow:3px 3px 7px gray;
+    padding-right: 10px;
     
   }
+
   .banner-container-area {
     margin: 0 auto;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 20px;
-    background-color: rgb(244, 251, 251);
+    padding-right: 25px;
+     background-color: rgb(244, 251, 251);
     border: 1px solid whitesmoke;
     border-radius: 2px;
-    box-shadow: 2px 2px 3px gray;
+   
   }
   
   .banner-container {
@@ -223,11 +226,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 20px;
-    background-color: rgb(244, 251, 251);
+    padding-right: 24px;
+     background-color: rgb(244, 251, 251); 
     border: 1px solid whitesmoke;
     border-radius: 2px;
-    box-shadow: 2px 2px 3px gray;
+    
   }
   
   .bg-image img {
@@ -327,7 +330,7 @@
   .btn-icon {
     font-size: 20px;
     border: none;
-    background-color: rgb(247, 245, 245);
+    background-color:white;
   }
 
 
@@ -359,9 +362,6 @@
              }
              
              .testimonials-description{
-               /* display: flex;
-               align-items: center;
-               justify-content: center; */
               text-align:left;
               padding: 0 15px;
              }
